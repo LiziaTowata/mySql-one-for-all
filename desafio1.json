@@ -3,14 +3,14 @@
   "coluna_usuario": "user_name",
   "tabela_plano": "tabela_plan",
   "coluna_plano": "plan_id",
-  "tabela_historico_de_reproducoes": "tabela_historic_reproductions",
-  "coluna_historico_de_reproducoes": "column_historic_reproductions",
-  "tabela_seguindo_artistas": "tabela_following_famous",
-  "coluna_seguindo_artistas": "column_following_famous",
+  "tabela_historico_de_reproducoes": "tabela_historic",
+  "coluna_historico_de_reproducoes": "music_id",
+  "tabela_seguindo_artistas": "tabela_follwing",
+  "coluna_seguindo_artistas": "famous_id",
   "tabela_artista": "tabela_famous",
   "coluna_artista": "column_famous",
   "tabela_album": "tabela_album",
   "coluna_album": "album_id",
-  "tabela_cancoes": "tabela_song",
-  "coluna_cancoes": "music_name"
+  "tabela_cancoes": "tabela_music",
+  "coluna_cancoes": "music_id"
 }
