@@ -1,3 +1,5 @@
+
+
 DROP DATABASE IF EXISTS SpotifyClone;
 
 CREATE DATABASE IF NOT EXISTS SpotifyClone;
@@ -73,12 +75,12 @@ CREATE TABLE SpotifyClone.tabela_user(
 
     DROP DATABASE IF EXISTS SpotifyClone;
 
-CREATE DATABASE IF NOT EXISTS SpotifyClone;
+CREATE DATABASE IF NOT EXISTS SpotifyClone; 
 
 CREATE TABLE SpotifyClone.tabela_plan(
   plan_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   type_plan VARCHAR(100) NOT NULL,
-  price_plan DOUBLE NOT NULL
+  price_plan DECIMAL(5,2) NOT NULL
   ) engine = InnoDB;
 
 CREATE TABLE SpotifyClone.tabela_user(
@@ -131,9 +133,9 @@ CREATE TABLE SpotifyClone.tabela_user(
   INSERT INTO SpotifyClone.tabela_plan(type_plan, price_plan)
   VALUES
     ('gratuito', 0.00),
-	('universitário', 5.99),
-	('pessoal', 6.99),
-	('familiar', 7.99);
+    ('familiar', 7.99),
+    ('universitário', 5.99),
+    ('pessoal', 6.99);
 
   INSERT INTO SpotifyClone.tabela_user(user_name, user_age, data_singature, plan_id)
   VALUES
